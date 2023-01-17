@@ -85,7 +85,6 @@ class Googlomatic {
 		}
 		
 		$seid = $googlomatic_options['googlomatic_seid']!=''?$googlomatic_options['googlomatic_seid']:'42b04e17d06b243c9'; 
-		$api_key = $googlomatic_options['googlomatic_api']!=''?$googlomatic_options['googlomatic_api']:"AIzaSyD5_pRbtMiSl2gETN287jC1Gfa7ZxISTfk"; 
 		$qstr = "&q=".$q;
 		if($region_code!='sweden') $qstr .= "+".$region_code;
 		$api_url = "https://seo.expediten.com/api.php?id=google-serp&site=envato.com&keyword=themeforest&country=US";	
