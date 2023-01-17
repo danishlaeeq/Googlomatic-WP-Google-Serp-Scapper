@@ -1,0 +1,33 @@
+.serp {
+    padding: 2rem 0;
+}
+
+.serp__container {
+    max-width: 100%;
+}
+
+.serp__item {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.googlomatic__options {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: block;
+}
+
+.googlomatic__options-left {
+    background: white;
+    padding: 2rem;
+}
+
+.googlomatic__options-right {
+    background: #03a9f4;
+    color: white;
+}
+
+.googlomatic__options-message {
+    padding: 1rem;
+}
